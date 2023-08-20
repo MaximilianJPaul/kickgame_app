@@ -1,0 +1,18 @@
+.header {
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo h1 {
+    margin: 0;
+    padding: 0 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header-cart {
+    padding: 0 1em;
+}

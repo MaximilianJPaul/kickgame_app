@@ -1,0 +1,15 @@
+.button {
+    border: none;
+    padding: .5em 4em;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #e9e9e9, #fff);
+    box-shadow:  2px 2px 4px #c1c1c1,
+             -2px -2px 4px #ffffff;
+}
+
+.button:hover {
+    border-radius: 48px;
+    background: #e0e0e0;
+    box-shadow: inset 2px 2px 4px #e9e9e9,
+            inset -2px -2px 4px #ffffff;
+}

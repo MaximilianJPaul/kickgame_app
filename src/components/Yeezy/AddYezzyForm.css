@@ -1,0 +1,36 @@
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0 ;
+}
+
+.add-form__yeezy {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-form__yeezy > * {
+    margin: .5em;
+    width: 300px;
+}
+
+.add-form__yeezy > input {
+    padding: 8px;
+    font-size: 1em;
+}
+
+.add-form__yeezy > button {
+    padding: 1em;
+    margin-top: 1.5em;
+    background-color: rgb(84, 84, 84);
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+
+.add-form__yeezy > button:active {
+    transform: scale(1.05);
+}
+
